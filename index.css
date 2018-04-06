@@ -28,16 +28,11 @@ width: auto;
 }
 
 a {
-
-color:
-#FF69B4
-;
+color: #FF69B4;
 }
 
 a:hover {
-color:
-#00FFFF
-;
+color: #00FFFF;
 transform:scale(2,2);
 transform-origin:0 0;
 }
