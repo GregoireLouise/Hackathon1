@@ -1,0 +1,13 @@
+body {
+  background-image: url("../blackskystar.jpg");
+}
+@font-face {
+  font-family: "Gameplay.ttf";
+  src: url(../Gameplay.ttf)
+}
+
+h1 {
+  font-family: "Gameplay.ttf";
+  color: #FF69B4;
+  text-align: center;
+}
