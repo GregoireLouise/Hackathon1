@@ -212,7 +212,7 @@ $(document).ready(function () {
     $('img.img4').animate({
       height: '+250px',
       width: '+250px',
-      opactity: '0.5'
+      opacity: '0.5'
     })
     $('p.img4').show()
   })
