@@ -1,0 +1,23 @@
+img {
+  height: 70%;
+  width: 50%;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+p {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+  color: black;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+  position: relative;
+  bottom: 28px;
+}
