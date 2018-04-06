@@ -1,15 +1,15 @@
 body {
-background-image:url(blackskystar.jpg);
+background-image:url('assets/bg/blackskystar.jpg');
 }
 @font-face {
 font-family: "Gameplay.ttf";
 font-style: normal;
-src: url(Gameplay.ttf);
+src: url('assets/fonts/Gameplay.ttf');
 }
 
 ul {
 position: fixed;
-padding: 0;
+padding left: 20%;
 text-align: center;
 list-style: none;
 top:50%;
