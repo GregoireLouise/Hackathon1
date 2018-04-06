@@ -1,43 +1,47 @@
-body {
-background-image:url(blackskystar.jpg);
-}
-@font-face {
-font-family: "Gameplay.ttf";
-font-style: normal;
-src: url(Gameplay.ttf);
-}
 
-ul {
-position: fixed;
-padding: 0;
-text-align: center;
-list-style: none;
-top:50%;
-left: 50%;
-width: auto;
-color: red;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-li {
-font-family: 'Gameplay.ttf';
+html, body {
+  height: 100vh;
+  background: radial-gradient(circle at top center, #333 0%, #111 100%);
+  overflow: hidden;
 }
 
-.all {
-height: 100%;
-width: auto;
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  font: 300 30px/1 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 60s credits linear infinite;
 }
 
-a {
-
-color:
-#FF69B4
-;
+.credits {
+  margin-bottom: 50px;
+  font-size: 50px;
 }
 
-a:hover {
-color:
-#00FFFF
-;
-transform:scale(2,2);
-transform-origin:0 0;
+.job {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+@keyframes credits {
+    0% { top:  100%; }
+  100% { top: -500%; }
 }
