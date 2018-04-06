@@ -1,0 +1,43 @@
+body {
+background-image:url(blackskystar.jpg);
+}
+@font-face {
+font-family: "Gameplay.ttf";
+font-style: normal;
+src: url(Gameplay.ttf);
+}
+
+ul {
+position: fixed;
+padding: 0;
+text-align: center;
+list-style: none;
+top:50%;
+left: 50%;
+width: auto;
+color: red;
+}
+
+li {
+font-family: 'Gameplay.ttf';
+}
+
+.all {
+height: 100%;
+width: auto;
+}
+
+a {
+
+color:
+#FF69B4
+;
+}
+
+a:hover {
+color:
+#00FFFF
+;
+transform:scale(2,2);
+transform-origin:0 0;
+}
