@@ -1,5 +1,7 @@
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@font-face {
+  font-family: 'Credit';
+  src: url('assets/fonts/Gameplay.ttf'); /* IE9 Compat Modes */
+}
 
 * {
   margin: 0;
@@ -19,7 +21,7 @@ html, body {
   left: 50%;
   width: 400px;
   margin-left: -200px;
-  font: 300 30px/1 'Open Sans Condensed', sans-serif;
+  font: 300 30px/1 'Credit', sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -34,11 +36,17 @@ html, body {
 .job {
   margin-bottom: 5px;
   font-size: 18px;
+  color: #FF69B4;
 }
 
 .name {
   margin-bottom: 50px;
-  font-size: 35px;
+  font-size: 18px;
+  color: #FF69B4;
+}
+
+.name:hover, .job:hover {
+  color: #00FFFF;
 }
 
 @keyframes credits {
