@@ -1,0 +1,39 @@
+img {
+  height: 70%;
+  width: 50%;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+p {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+  font-family: "Gameplay.ttf";
+  color: #FF69B4;
+  text-align: center;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+  position: relative;
+  bottom: 28px;
+
+}
+
+body {
+  background-image: url("../blackskystar.jpg");
+}
+@font-face {
+  font-family: "Gameplay.ttf";
+  src: url(../Gameplay.ttf)
+}
+
+h1 {
+  font-family: "Gameplay.ttf";
+  color: #FF69B4;
+  text-align: center;
+}
